@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11810" started-at="2022-03-21T11:39:07Z" finished-at="2022-03-21T11:39:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11810" started-at="2022-03-21T11:39:07Z" finished-at="2022-03-21T11:39:19Z">
+      <class name="rest_sample.RestAssuredAssignment_3">
+        <test-method status="PASS" signature="createUser(org.testng.ITestContext)[pri:0, instance:rest_sample.RestAssuredAssignment_3@53b32d7]" name="createUser" duration-ms="5275" started-at="2022-03-21T17:09:07Z" finished-at="2022-03-21T17:09:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b87ed94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:rest_sample.RestAssuredAssignment_3@53b32d7]" name="login" duration-ms="1646" started-at="2022-03-21T17:09:13Z" depends-on-methods="rest_sample.RestAssuredAssignment_3.createUser" finished-at="2022-03-21T17:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="edit(org.testng.ITestContext)[pri:0, instance:rest_sample.RestAssuredAssignment_3@53b32d7]" name="edit" duration-ms="1631" started-at="2022-03-21T17:09:14Z" depends-on-methods="rest_sample.RestAssuredAssignment_3.login" finished-at="2022-03-21T17:09:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b87ed94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:rest_sample.RestAssuredAssignment_3@53b32d7]" name="logout" duration-ms="1610" started-at="2022-03-21T17:09:16Z" depends-on-methods="rest_sample.RestAssuredAssignment_3.edit" finished-at="2022-03-21T17:09:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="delete(org.testng.ITestContext)[pri:0, instance:rest_sample.RestAssuredAssignment_3@53b32d7]" name="delete" duration-ms="1601" started-at="2022-03-21T17:09:18Z" depends-on-methods="rest_sample.RestAssuredAssignment_3.logout" finished-at="2022-03-21T17:09:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b87ed94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- rest_sample.RestAssuredAssignment_3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
